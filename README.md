@@ -71,6 +71,7 @@ travelMode can be :
 | **`waze`**                       | Set configuration for waze : `action` `address` `lat` `lon` and `icon` ... if `address` not set waze will take the address from the default `address` prop |  `address:'',action:navigateByAddress`,`lat`:'',`lon`:''    |
 | **`googleMaps`**                 |Set configuration for google maps `action` `address` `lat` `lon` `icon` and `travelMode`  ... if `address` not set google maps will take the address from the default `address` prop   | `address:'',action:navigateByAddress`,`lat`:'',`lon`:`travelMode`:'driving'|
 | **`maps`**                       | Set configuration for ios maps  `action` `address` `lat` `lon` `icon` and `travelMode`  ... if `address` not set ios maps will take the address from the default `address` prop |   `address:'',action:navigateByAddress`,`lat`:'',`lon`:'',`travelMode`:'driving'   |
+| **`externalNav`**                    | Returns a string with the title of the external navigation action (waze, google maps, iOS maps). This to know which option the user choose to navigate.                         | `-` |
 
 ## IOS Usage 
 To use `waze` and `google maps` on iOS devices you must add this lines to the `info.plist` file
